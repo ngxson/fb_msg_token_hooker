@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="/orca"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/preference_sms_show_conversations_title" android:key="/messages/sms/sms_beta_enabled" android:summary="@string/preference_sms_show_conversations_summary" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/preference_use_as_main_app_title" android:key="/messages/sms/use_as_main_app" android:summary="@string/preference_use_as_main_app_description" android:defaultValue="true" />
+</PreferenceScreen>

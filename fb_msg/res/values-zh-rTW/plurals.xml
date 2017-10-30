@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">刪除訊息？</item>
+        <item quantity="one">刪除訊息？</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">訊息複本一旦刪除，將無法復原。</item>
+        <item quantity="one">訊息複本一旦刪除，將無法復原。</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">刪除訊息</item>
+        <item quantity="one">刪除訊息</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">正在刪除訊息⋯⋯</item>
+        <item quantity="one">正在刪除訊息⋯⋯</item>
+    </plurals>
+</resources>

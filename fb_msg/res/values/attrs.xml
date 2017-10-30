@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="mask" format="reference" />
+    <attr name="uncheckedImage" format="reference" />
+    <attr name="checkedImage" format="reference" />
+    <attr name="refreshDirection">
+        <enum name="pull" value="0" />
+        <enum name="push" value="1" />
+    </attr>
+    <attr name="url" format="string" />
+    <attr name="placeholderSrc" format="reference" />
+    <attr name="showProgressBar" format="boolean" />
+    <attr name="isShownInGallery" format="boolean" />
+    <attr name="retainImageDuringUpdate" format="boolean" />
+    <attr name="shouldCacheOriginal" format="boolean" />
+    <attr name="loadDuringScroll" format="boolean" />
+    <attr name="placeHolderScaleType">
+        <enum name="matrix" value="0" />
+        <enum name="fitXY" value="1" />
+        <enum name="fitStart" value="2" />
+        <enum name="fitCenter" value="3" />
+        <enum name="fitEnd" value="4" />
+        <enum name="center" value="5" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="7" />
+    </attr>
+    <attr name="scaleType">
+        <enum name="matrix" value="0" />
+        <enum name="fitXY" value="1" />
+        <enum name="fitStart" value="2" />
+        <enum name="fitCenter" value="3" />
+        <enum name="fitEnd" value="4" />
+        <enum name="center" value="5" />
+        <enum name="centerCrop" value="6" />
+        <enum name="centerInside" value="7" />
+    </attr>
+    <attr name="zoom" format="integer" />
+    <attr name="markerColor" format="string" />
+    <attr name="keepMarkerAtCenter" format="boolean" />
+    <attr name="mapPlaceholder">
+        <enum name="noImage" value="0" />
+        <enum name="worldMap" value="1" />
+    </attr>
+    <attr name="normalHeight" format="dimension" />
+    <attr name="grabberId" format="reference" />
+    <attr name="viewToHideWhileDragging" format="reference" />
+    <attr name="dragndropBackground" format="integer" />
+    <attr name="dragndropImageBackground" format="integer" />
+    <attr name="overflowAndListOverlap" format="dimension" />
+    <attr name="minimallyWide" format="boolean" />
+    <attr name="maximallyWideThreshold" format="dimension" />
+    <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+    <attr name="centered" format="boolean" />
+    <attr name="selectedColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+    <attr name="fillColor" format="color" />
+    <attr name="pageColor" format="color" />
+    <attr name="radius" format="dimension" />
+    <attr name="snap" format="boolean" />
+    <attr name="strokeColor" format="color" />
+    <attr name="maxLines" format="integer" />
+    <attr name="minLines" format="integer" />
+    <attr name="textColor" format="reference|color" />
+    <attr name="typeface">
+        <enum name="normal" value="0" />
+        <enum name="sans" value="1" />
+        <enum name="serif" value="2" />
+        <enum name="monospace" value="3" />
+    </attr>
+    <attr name="textStyle">
+        <flag name="normal" value="0x00000000" />
+        <flag name="bold" value="0x00000001" />
+        <flag name="italic" value="0x00000002" />
+    </attr>
+    <attr name="minScaledTextSize" format="integer" />
+    <attr name="maxScaledTextSize" format="integer" />
+    <attr name="alignment">
+        <enum name="center" value="2" />
+        <enum name="normal" value="0" />
+        <enum name="opposite" value="1" />
+    </attr>
+    <attr name="tileSize" format="dimension" />
+    <attr name="dividerPosition">
+        <flag name="none" value="0x00000000" />
+        <flag name="left" value="0x00000001" />
+        <flag name="right" value="0x00000002" />
+        <flag name="top" value="0x00000004" />
+        <flag name="bottom" value="0x00000008" />
+    </attr>
+    <attr name="title" format="string" />
+    <attr name="hasProgressBar" format="boolean" />
+    <attr name="hasBackButton" format="boolean" />
+    <attr name="centerTitle" format="boolean" />
+    <attr name="src" format="reference" />
+    <attr name="empty_background_color" format="color" />
+    <attr name="iconSrc" format="reference" />
+    <attr name="itemTitle" format="string" />
+    <attr name="hintText" format="string" />
+    <attr name="textSize" format="dimension" />
+    <attr name="divider" format="reference|color" />
+    <attr name="tabStripEnabled" format="boolean" />
+    <attr name="tabStripLeft" format="reference" />
+    <attr name="tabStripRight" format="reference" />
+    <attr name="animateOutDirection">
+        <enum name="up" value="0" />
+        <enum name="down" value="1" />
+    </attr>
+    <attr name="suggestionText" format="string" />
+    <attr name="buttonText" format="string" />
+    <attr name="layout_anchorPosition">
+        <flag name="belowAnchor" value="0x00000001" />
+        <flag name="aboveAnchor" value="0x00000002" />
+        <flag name="alignWithTopOfAnchor" value="0x00000004" />
+        <flag name="alignWithBottomOfAnchor" value="0x00000008" />
+        <flag name="leftOfAnchor" value="0x00000010" />
+        <flag name="rightOfAnchor" value="0x00000020" />
+        <flag name="alignWithLeftOfAnchor" value="0x00000040" />
+        <flag name="alignWithRightOfAnchor" value="0x00000080" />
+        <flag name="centerVerticallyOnAnchor" value="0x00000100" />
+        <flag name="centerHorizontallyOnAnchor" value="0x00000200" />
+    </attr>
+    <attr name="layout_isOverlay" format="boolean" />
+    <attr name="layout_anchoredTo" format="reference" />
+    <attr name="top_divider" format="reference" />
+    <attr name="bottom_divider" format="reference" />
+</resources>

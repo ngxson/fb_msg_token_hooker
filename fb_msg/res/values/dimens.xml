@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_circle_indicator_radius">3.0dip</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1.0dip</dimen>
+    <dimen name="divebar_left_margin_width">70.0dip</dimen>
+    <dimen name="chat_head_text_bubble_x">73.0dip</dimen>
+    <dimen name="chat_head_text_bubble_y">19.0dip</dimen>
+    <dimen name="chat_head_hide_y_distance">-40.0dip</dimen>
+    <item type="dimen" name="titlebar_button_width">@dimen/title_bar_height</item>
+</resources>

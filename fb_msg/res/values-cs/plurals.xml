@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">Odstranit zprávy?</item>
+        <item quantity="one">Odstranit zprávu?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">Poté, co své zprávy odstraníte, nebudete moci tuto akci vrátit zpět.</item>
+        <item quantity="one">Poté, co svou zprávu odstraníte, nebudete moci tuto akci vrátit zpět.</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">Odstranit zprávy</item>
+        <item quantity="one">Odstranit zprávu</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">Odstraňování zpráv…</item>
+        <item quantity="one">Odstraňování zprávy…</item>
+    </plurals>
+</resources>

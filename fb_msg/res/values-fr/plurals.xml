@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">Supprimer les messages ?</item>
+        <item quantity="one">Supprimer le message ?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">La suppression de votre copie de ces messages est irréversible.</item>
+        <item quantity="one">La suppression de votre copie de ce message est irréversible.</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">Supprimer les messages</item>
+        <item quantity="one">Supprimer le message</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">Suppression des messages…</item>
+        <item quantity="one">Suppression du message</item>
+    </plurals>
+</resources>

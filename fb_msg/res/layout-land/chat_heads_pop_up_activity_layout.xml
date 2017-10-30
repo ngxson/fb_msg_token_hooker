@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#bb000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.MaskedFrameLayout android:id="@id/messenger_popup_layout" android:background="@drawable/chat_head_popup_bubble" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="74.0dip" orca:mask="@drawable/chat_head_popup_bubble_mask">
+        <fragment android:name="com.facebook.orca.threadview.ThreadViewMessageFragmentTab" android:id="@id/thread_view_messages_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.facebook.widget.MaskedFrameLayout>
+</RelativeLayout>

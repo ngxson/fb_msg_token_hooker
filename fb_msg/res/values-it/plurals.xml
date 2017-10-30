@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">Eliminare i messaggi?</item>
+        <item quantity="one">Eliminare il messaggio?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">"L'eliminazione della copia dei messaggi non può essere annullata."</item>
+        <item quantity="one">"L'eliminazione della copia del messaggio non può essere annullata."</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">Elimina messaggi</item>
+        <item quantity="one">Elimina messaggio</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">Eliminazione messaggi in corso…</item>
+        <item quantity="one">Eliminazione messaggio in corso…</item>
+    </plurals>
+</resources>

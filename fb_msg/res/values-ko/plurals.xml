@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">메시지를 삭제하시겠습니까?</item>
+        <item quantity="one">메시지를 삭제하시겠습니까?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">이 메시지 사본을 삭제하면 취소할 수 없습니다.</item>
+        <item quantity="one">메시지 사본을 삭제하면 취소할 수 없습니다.</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">메시지 삭제</item>
+        <item quantity="one">메시지 삭제</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">메시지를 삭제하는 중…</item>
+        <item quantity="one">메시지를 삭제하는 중…</item>
+    </plurals>
+</resources>

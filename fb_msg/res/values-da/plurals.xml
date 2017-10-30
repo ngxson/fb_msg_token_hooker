@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">Slet beskeder?</item>
+        <item quantity="one">Slet besked?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">Når du først har slettet dit eksemplar af disse beskeder, kan det ikke fortrydes.</item>
+        <item quantity="one">Når du først har slettet dit eksemplar af beskeden, kan det ikke fortrydes.</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">Slet beskeder</item>
+        <item quantity="one">Slet besked</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">Sletter beskeder…</item>
+        <item quantity="one">Sletter besked…</item>
+    </plurals>
+</resources>

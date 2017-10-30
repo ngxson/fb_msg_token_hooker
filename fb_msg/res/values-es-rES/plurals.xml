@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">¿Eliminar mensajes?</item>
+        <item quantity="one">¿Eliminar mensaje?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">Una vez que elimines tu copia de estos mensajes, no podrás deshacer la acción.</item>
+        <item quantity="one">Una vez que elimines tu copia de este mensaje, no podrás deshacer la acción.</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">Eliminar mensajes</item>
+        <item quantity="one">Eliminar mensaje</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">Eliminando mensajes…</item>
+        <item quantity="one">Eliminando mensaje…</item>
+    </plurals>
+</resources>

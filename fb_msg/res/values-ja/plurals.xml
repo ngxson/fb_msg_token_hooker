@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">メッセージを削除しますか？</item>
+        <item quantity="one">メッセージを削除しますか？</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">これらのメッセージのコピーを削除すると、元に戻すことはできません。</item>
+        <item quantity="one">メッセージのコピーを削除すると、元に戻すことはできません。</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">メッセージを削除</item>
+        <item quantity="one">メッセージを削除</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">メッセージを削除中…</item>
+        <item quantity="one">メッセージを削除中…</item>
+    </plurals>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">ลบข้อความหรือไม่?</item>
+        <item quantity="one">ลบข้อความหรือไม่?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">เมื่อคุณลบสำเนาการสนทนาเหล่านี้แล้ว จะไม่สามารถเรียกคืนได้</item>
+        <item quantity="one">เมื่อคุณลบสำเนาการสนทนาแล้ว จะไม่สามารถเรียกคืนได้</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">ลบข้อความ</item>
+        <item quantity="one">ลบข้อความ</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">กำลังลบข้อความ…</item>
+        <item quantity="one">กำลังลบข้อความ…</item>
+    </plurals>
+</resources>

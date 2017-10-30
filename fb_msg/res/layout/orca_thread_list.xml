@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.orca.common.ui.overlay.SwipableOverlayLayout android:id="@id/thread_list_overlay_container" android:background="@*android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.orca.common.ui.titlebar.TitleBarViewStub android:id="@id/titlebar_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" orca:hasBackButton="false" />
+        <com.facebook.orca.common.ui.widgets.SlidingOutSuggestionView android:id="@id/thread_list_mute_warning" android:layout_width="fill_parent" android:layout_height="wrap_content" orca:dividerPosition="bottom" orca:animateOutDirection="down" orca:suggestionText="@string/mute_warning_global" orca:buttonText="@string/mute_warning_button" />
+        <com.facebook.orca.threadlist.SyncDisabledWarningView android:id="@id/thread_list_sync_disabled_warning" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.facebook.orca.threadlist.VersionUpgradePromoView android:id="@id/thread_list_version_upgrade_promo" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <fragment android:name="com.facebook.orca.threadlist.ThreadListFragment" android:id="@id/orca_threadlist_fragment" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageButton android:layout_gravity="bottom|right|center" android:id="@id/compose_button" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/orca_compose_button" />
+    <com.facebook.orca.nux.NuxScrimView android:id="@id/nux_scrim" android:layout_width="fill_parent" android:layout_height="fill_parent" orca:layout_anchorPosition="centerVerticallyOnAnchor|centerHorizontallyOnAnchor" orca:layout_isOverlay="true" orca:layout_anchoredTo="@id/thread_list_overlay_container" />
+    <com.facebook.orca.nux.NuxSmsIntroView android:id="@id/nux_sms_intro" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" orca:layout_anchorPosition="centerVerticallyOnAnchor|centerHorizontallyOnAnchor" orca:layout_isOverlay="true" orca:layout_anchoredTo="@id/thread_list_overlay_container" style="@style/NuxIntroLayout" />
+</com.facebook.orca.common.ui.overlay.SwipableOverlayLayout>

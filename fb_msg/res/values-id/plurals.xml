@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">Hapus Pesan?</item>
+        <item quantity="one">Hapus Pesan?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">Setelah Anda menghapus salinan pesan ini, ini tak bisa diurungkan.</item>
+        <item quantity="one">Setelah Anda menghapus salinan pesan ini, ini tak bisa diurungkan.</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">Hapus Pesan</item>
+        <item quantity="one">Hapus Pesan</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">Menghapus pesan…</item>
+        <item quantity="one">Menghapus pesan…</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/url_image_placeholder_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/orca_photo_downloading" android:scaleType="centerInside" />
+    <ImageView android:id="@id/url_image_image" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/url_image_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Small.Inverse" />
+</merge>

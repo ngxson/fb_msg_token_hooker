@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">Delete Messages?</item>
+        <item quantity="one">Delete Message?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">Once you delete your copy of these messages, it cannot be undone.</item>
+        <item quantity="one">Once you delete your copy of the message, it cannot be undone.</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">Delete Messages</item>
+        <item quantity="one">Delete Message</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">Deleting messages…</item>
+        <item quantity="one">Deleting message…</item>
+    </plurals>
+</resources>

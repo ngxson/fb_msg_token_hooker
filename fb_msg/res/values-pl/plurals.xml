@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">Usunąć wiadomości?</item>
+        <item quantity="one">Usunąć wiadomość?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">Usunięcia swojej kopii tych wiadomości nie będzie można cofnąć.</item>
+        <item quantity="one">Usunięcia swojej kopii tej wiadomości nie będzie można cofnąć.</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">Usuń wiadomości</item>
+        <item quantity="one">Usuń wiadomość</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">Usuwanie wiadomości…</item>
+        <item quantity="one">Usuwanie wiadomości…</item>
+    </plurals>
+</resources>

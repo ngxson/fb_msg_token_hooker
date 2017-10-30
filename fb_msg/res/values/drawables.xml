@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="default_separator_color">#33464c59</item>
+    <item type="drawable" name="thread_item_unread_background_color">#ffe4e9f2</item>
+    <item type="drawable" name="gray_wash_color">#88555555</item>
+    <item type="drawable" name="transparent">@*android:color/transparent</item>
+</resources>

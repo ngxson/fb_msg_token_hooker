@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">是否删除消息？</item>
+        <item quantity="one">是否删除消息？</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">删除这些消息的副本后，将无法恢复。</item>
+        <item quantity="one">删除此消息的副本后，将无法恢复。</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">删除消息</item>
+        <item quantity="one">删除消息</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">正在删除消息…</item>
+        <item quantity="one">正在删除消息…</item>
+    </plurals>
+</resources>

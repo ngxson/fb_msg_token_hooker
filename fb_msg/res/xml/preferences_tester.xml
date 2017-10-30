@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/debug_log_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.orca.prefs.ListPreferenceWithSummaryValue android:entries="@array/logger_levels" android:title="@string/debug_log_level" android:key="/settings/logging/logging_level" android:defaultValue="-1" android:entryValues="@array/logger_levels_values" />
+</PreferenceScreen>

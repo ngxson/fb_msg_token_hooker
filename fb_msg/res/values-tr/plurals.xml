@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">Mesajları Sil?</item>
+        <item quantity="one">Mesajı Sil?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">Bu mesajların sendeki kopyanı silersen, bu işlem geri alınamaz.</item>
+        <item quantity="one">Bu mesajın sendeki kopyanı silersen, bu işlem geri alınamaz.</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">Mesajları Sil</item>
+        <item quantity="one">Mesajı Sil</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">Mesajlar siliniyor…</item>
+        <item quantity="one">Mesaj siliniyor…</item>
+    </plurals>
+</resources>

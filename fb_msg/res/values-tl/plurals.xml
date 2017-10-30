@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">I-delete ang Mga Mensahe?</item>
+        <item quantity="one">I-delete ang Mensahe?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">Sa sandaling na-delete mo ang iyong kopya ng mga mensaheng ito, hindi ito maa-undo.</item>
+        <item quantity="one">Sa sandaling na-delete mo ang iyong kopya ng mensahe, hindi ito maa-undo.</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">I-delete ang Mga Mensahe</item>
+        <item quantity="one">I-delete ang Mensahe</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">Dini-delete ang mga mensahe…</item>
+        <item quantity="one">Dini-delete ang mensahe…</item>
+    </plurals>
+</resources>

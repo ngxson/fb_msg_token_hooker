@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/debug_log_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.orca.prefs.ListPreferenceWithSummaryValue android:entries="@array/logger_levels" android:title="@string/debug_log_level" android:key="/settings/logging/logging_level" android:defaultValue="-1" android:entryValues="@array/logger_levels_values" />
+    <CheckBoxPreference android:title="@string/debug_log_enable" android:key="/settings/logging/debug_logs" android:summary="@string/debug_log_description" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/debug_php_profiling" android:key="/settings/http/php_profiling" android:summary="@string/debug_php_profiling_description" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/debug_wirehog_profiling" android:key="/settings/http/wirehog_profiling" android:summary="@string/debug_wirehog_profiling_description" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/debug_force_fb4a_look_and_feel" android:key="/settings/messenger/force_fb4a_look_and_feel" android:summary="@string/debug_force_fb4a_look_and_feel_description" android:defaultValue="false" />
+    <com.facebook.orca.prefs.ListPreferenceWithSummaryValue android:entries="@array/web_server_tiers" android:title="@string/debug_web_server_tier_title" android:key="/settings/sandbox/web/server_tier" android:summary="@string/debug_web_server_tier_description" android:defaultValue="default" android:entryValues="@array/web_server_tiers_values" />
+    <com.facebook.orca.prefs.EditTextPreferenceWithSummaryValue android:hint="@string/debug_web_sandbox_hint" android:singleLine="true" android:title="@string/debug_web_sandbox_title" android:key="/settings/sandbox/web/sandbox" android:summary="@string/debug_web_sandbox_description" android:dialogTitle="@string/debug_web_sandbox_title" android:inputType="text" />
+    <com.facebook.orca.prefs.ListPreferenceWithSummaryValue android:entries="@array/mqtt_server_tiers" android:title="@string/debug_mqtt_server_tier_title" android:key="/settings/sandbox/mqtt/server_tier" android:summary="@string/debug_mqtt_server_tier_description" android:defaultValue="default" android:entryValues="@array/mqtt_server_tiers_values" />
+    <com.facebook.orca.prefs.EditTextPreferenceWithSummaryValue android:hint="@string/debug_mqtt_sandbox_hint" android:singleLine="true" android:title="@string/debug_mqtt_sandbox_title" android:key="/settings/sandbox/mqtt/sandbox" android:summary="@string/debug_mqtt_sandbox_description" android:dialogTitle="@string/debug_mqtt_sandbox_title" android:inputType="text" />
+    <Preference android:title="@string/preference_clear_image_cache_title" android:key="/messenger/advanced/clear_image_cache_unused" android:summary="@string/preference_clear_image_cache_description" />
+    <Preference android:title="@string/preference_clear_thread_cache_title" android:key="/messenger/advanced/clear_thread_cache_unused" android:summary="@string/preference_clear_thread_cache_description" />
+    <Preference android:title="@string/preference_reset_nux_title" android:key="/messenger/advanced/reset_nux_unused" />
+    <CheckBoxPreference android:title="@string/debug_rolodex_picker_title" android:key="/settings/picker/force_rolodex" android:summary="@string/debug_rolodex_picker_description" android:defaultValue="false" />
+    <Preference android:title="@string/debug_upload_contacts_title" android:key="/messenger/advanced/upload_contacts" android:summary="@string/debug_upload_contacts_description" />
+    <Preference android:title="@string/debug_download_contacts_title" android:key="/messenger/advanced/download_contacts" android:summary="@string/debug_download_contacts_description" />
+</PreferenceScreen>

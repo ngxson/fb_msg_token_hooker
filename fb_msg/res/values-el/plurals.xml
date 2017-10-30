@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">Διαγραφή μηνυμάτων;</item>
+        <item quantity="one">Διαγραφή μηνύματος;</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">Αφού διαγράψετε τα αντίγραφα αυτών των μηνυμάτων, δεν θα μπορείτε να τα επαναφέρετε.</item>
+        <item quantity="one">Αφού διαγράψετε το αντίγραφο του μηνύματος, δεν θα μπορείτε να το επαναφέρετε.</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">Διαγραφή μηνυμάτων</item>
+        <item quantity="one">Διαγραφή μηνύματος</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">Διαγραφή μηνυμάτων…</item>
+        <item quantity="one">Διαγραφή μηνύματος…</item>
+    </plurals>
+</resources>

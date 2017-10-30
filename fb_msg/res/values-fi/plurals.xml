@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">Poistetaanko viestit?</item>
+        <item quantity="one">Poistetaanko viesti?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">Viestien poistamista ei voi perua.</item>
+        <item quantity="one">Viestin poistamista ei voi perua.</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">Poista viestit</item>
+        <item quantity="one">Poista viesti</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">Poistetaan viestejä…</item>
+        <item quantity="one">Poistetaan viestiä…</item>
+    </plurals>
+</resources>

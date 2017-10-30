@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">Skrap Boodskappe?</item>
+        <item quantity="one">Skrap Boodskap?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">Sodra jy jou afskrif van hierdie boodskappe geskrap het, kan dit nie herroep word nie.</item>
+        <item quantity="one">Sodra jy jou afskrif van die boodskap geskrap het, kan dit nie herroep word nie.</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">Skrap Boodskappe</item>
+        <item quantity="one">Skrap Boodskap</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">Skrap tans boodskappe …</item>
+        <item quantity="one">Skrap tans boodskap …</item>
+    </plurals>
+</resources>

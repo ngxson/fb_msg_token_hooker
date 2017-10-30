@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="/orca"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.orca.prefs.NotificationEnabledPreference android:title="@string/preference_notifications_enabled_title" android:key="/settings/messages/notifications/enabled" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/preference_notifications_sound_enabled_title" android:key="/settings/messages/notifications/sound_enabled" android:dependency="/settings/messages/notifications/enabled" android:defaultValue="true" />
+    <RingtonePreference android:title="@string/preference_notifications_ringtone_title" android:key="/settings/messages/notifications/ringtone_uri" android:dependency="/settings/messages/notifications/sound_enabled" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" android:showDefault="true" />
+    <CheckBoxPreference android:title="@string/preference_notifications_vibrate_enabled_title" android:key="/settings/messages/notifications/vibrate_enabled" android:dependency="/settings/messages/notifications/enabled" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/preference_notifications_led_enabled_title" android:key="/settings/messages/notifications/led_enabled" android:summary="@string/preference_notifications_led_enabled_description" android:dependency="/settings/messages/notifications/enabled" android:defaultValue="true" />
+</PreferenceScreen>

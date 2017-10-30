@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.orca.common.ui.overlay.OverlayLayout android:id="@id/thread_view_overlay_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/thread_view_content_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/thread_view_child_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.facebook.orca.common.ui.widgets.EmptyListViewItem android:id="@id/threadview_empty_item" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.facebook.orca.compose.LocationNuxView android:id="@id/compose_location_nux" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-5.0dip" android:layout_marginBottom="-20.0dip" orca:layout_anchorPosition="aboveAnchor|alignWithRightOfAnchor" orca:layout_isOverlay="true" orca:layout_anchoredTo="@id/messages_compose" />
+    <com.facebook.orca.compose.LocationDisabledNuxView android:id="@id/compose_location_disabled_nux" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-5.0dip" android:layout_marginBottom="-20.0dip" orca:layout_anchorPosition="aboveAnchor|alignWithRightOfAnchor" orca:layout_isOverlay="true" orca:layout_anchoredTo="@id/messages_compose" />
+    <com.facebook.orca.threadview.ThreadAlertRateLimitView android:id="@id/thread_view_rate_limit_popup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" orca:layout_anchorPosition="belowAnchor|alignWithRightOfAnchor" orca:layout_isOverlay="true" orca:layout_anchoredTo="@id/title_button_1" />
+</com.facebook.orca.common.ui.overlay.OverlayLayout>

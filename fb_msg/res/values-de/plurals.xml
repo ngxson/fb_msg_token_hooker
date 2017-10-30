@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">Nachrichten löschen?</item>
+        <item quantity="one">Nachricht löschen?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">Das Löschen deiner Kopien dieser Nachrichten kann nicht rückgängig gemacht werden.</item>
+        <item quantity="one">Das Löschen deiner Kopie dieser Nachricht kann nicht rückgängig gemacht werden.</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">Nachrichten löschen</item>
+        <item quantity="one">Nachricht löschen</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">Nachrichten werden gelöscht …</item>
+        <item quantity="one">Nachricht wird gelöscht …</item>
+    </plurals>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:orca="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="top|left|center" android:id="@id/emoji_popup_arrow_above" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:src="@drawable/orca_attachments_arrow" />
+    <FrameLayout android:id="@id/emoji_popup_content_container" android:background="@color/emoji_attachment_popup_background_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/emoji_front_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/attachment_operation_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <View android:background="@drawable/orca_composer_divider_horizontal" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+            <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/emoji_front_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="bottom" android:id="@id/emoji_backspace_container" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:layout_weight="1.0">
+                    <View android:layout_gravity="bottom|right|center" android:id="@id/emoji_backspace" android:background="@drawable/orca_emoji_backspace_front_button" android:layout_width="43.0dip" android:layout_height="33.0dip" android:layout_marginRight="4.0dip" />
+                </FrameLayout>
+                <FrameLayout android:layout_gravity="bottom" android:id="@id/emoji_show_back_container" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:layout_weight="1.0">
+                    <View android:layout_gravity="bottom|left|center" android:id="@id/emoji_show_back" android:background="@drawable/orca_emoji_more_front_button" android:layout_width="43.0dip" android:layout_height="33.0dip" android:layout_marginLeft="4.0dip" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/emoji_back_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/emoji_back_tab_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.facebook.widget.viewpagerindicator.CirclePageIndicator android:layout_gravity="bottom|center" android:id="@id/view_pager_indicator" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" orca:strokeColor="@color/emoji_view_pager_indicator_unselected_color" />
+            </FrameLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/emoji_tabs" android:layout_width="fill_parent" android:layout_height="@dimen/emoji_category_height_dp">
+                <FrameLayout android:id="@id/emoji_tabs_backspace_container" android:background="@drawable/orca_emoji_tab_dark_background" android:layout_width="51.0dip" android:layout_height="fill_parent">
+                    <View android:layout_gravity="bottom|right|center" android:id="@id/emoji_tabs_backspace" android:background="@drawable/orca_emoji_backspace_back_normal" android:layout_width="43.0dip" android:layout_height="33.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="6.0dip" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/emoji_tabs_show_front_container" android:background="@drawable/orca_emoji_tab_dark_background" android:layout_width="51.0dip" android:layout_height="fill_parent">
+                    <View android:layout_gravity="bottom|left|center" android:id="@id/emoji_tabs_show_front" android:background="@drawable/orca_emoji_more_back_normal" android:layout_width="43.0dip" android:layout_height="33.0dip" android:layout_marginLeft="4.0dip" android:layout_marginBottom="6.0dip" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/audio_record_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:layout_gravity="bottom|left|center" android:id="@id/audio_record_cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_cancel" />
+            <TextView android:textSize="30.0dip" android:layout_gravity="top|center" android:id="@id/audio_record_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ProgressBar android:id="@id/audio_record_volume_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="20.0dip" style="@android:style/Widget.ProgressBar.Horizontal" />
+                <Button android:id="@id/audio_record_start_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/audio_recorder_record" />
+            </LinearLayout>
+            <ToggleButton android:layout_gravity="bottom|right|center" android:id="@id/audio_record_send_toggle_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/audio_auto_send_on" android:textOff="@string/audio_auto_send_off" android:key="auto_send_audio_recording" />
+            <com.facebook.orca.attachments.AudioRecordVolumeIndicatorView android:id="@id/audio_record_volume_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </FrameLayout>
+    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/emoji_popup_arrow_below" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:src="@drawable/orca_attachments_arrow_reversed" />
+</LinearLayout>

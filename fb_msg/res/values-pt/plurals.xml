@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_delete_confirm_title">
+        <item quantity="other">Excluir mensagens?</item>
+        <item quantity="one">Excluir mensagem?</item>
+    </plurals>
+    <plurals name="message_delete_confirm_msg">
+        <item quantity="other">Assim que excluir sua cópia destas mensagens, a ação não poderá ser desfeita.</item>
+        <item quantity="one">Assim que excluir sua cópia da mensagem, a ação não poderá ser desfeita.</item>
+    </plurals>
+    <plurals name="message_delete_confirm_ok_button">
+        <item quantity="other">Excluir mensagens</item>
+        <item quantity="one">Excluir mensagem</item>
+    </plurals>
+    <plurals name="message_delete_progress">
+        <item quantity="other">Excluindo mensagens…</item>
+        <item quantity="one">Excluindo mensagem…</item>
+    </plurals>
+</resources>

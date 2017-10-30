@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="/orca"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/preference_notifications_group_title" android:key="/settings/messages/notifications" />
+    <com.facebook.orca.prefs.LocationServicesPreference android:title="@string/preference_location_services_title" android:key="/settings/messages/location_services_unused" android:defaultValue="true" />
+    <PreferenceScreen android:title="@string/preference_sms_mms_group_title" android:key="/settings/messages/sms_mms" />
+    <PreferenceScreen android:title="@string/menu_about" android:key="/settings/messenger/about_unused" />
+    <PreferenceScreen android:title="@string/menu_switch_accounts" android:key="/settings/messenger/switch_accounts" />
+    <PreferenceScreen android:title="Tester" android:key="/settings/messenger/tester" />
+    <PreferenceScreen android:title="Internal" android:key="/settings/messenger/internal">
+        <intent android:targetPackage="com.facebook.orca" android:action="android.intent.action.VIEW" android:targetClass="OrcaInternalPreferenceActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>
