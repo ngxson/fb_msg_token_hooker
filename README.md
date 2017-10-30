@@ -1,7 +1,7 @@
 
 ### Ý tưởng
 
-Gần đây trong group j2team có share nhiều bài về token bất tử đc lấy từ Facebook Messenger cho điện thoại. Mình cũng tò mò nên đã thử edit lại app FB msg cho *ANDROID* (bản cũ) để lấy token. Cũng chưa thử đc token này sống bao lâu nhưng chỉ biết là đổi pass thôi nó cũng rip rồi (đành nhờ các anh em test hộ) =))
+Gần đây trong group j2team có share nhiều bài về token bất tử đc lấy từ Facebook Messenger cho điện thoại. Mình cũng tò mò nên đã thử edit lại app FB msg cho **ANDROID** (bản cũ) để lấy token. Cũng chưa thử đc token này sống bao lâu nhưng chỉ biết là đổi pass thôi nó cũng rip rồi (đành nhờ các anh em test hộ) =))
 
 Với fb msg trên android, sau khi login nó sẽ lưu token vào file com.facebook.orca_preferences trong shared_pref. Như vậy mình chỉ cần inject thêm 1 activity để đọc preference này
 
@@ -19,7 +19,7 @@ Như vậy đầu tiên mình viết code java trên android studio, sau đó ch
 
 ### Cách build
 
-1. Trong folder *injected_source_code* có chứa code java để build bằng android studio, sau khi build xong sẽ ra file apk
+1. Trong folder **injected_source_code** có chứa code java để build bằng android studio, sau khi build xong sẽ ra file apk
 
 2. Decompile file apk này để lấy code smali của NuiActivity
 
@@ -27,6 +27,6 @@ Như vậy đầu tiên mình viết code java trên android studio, sau đó ch
 
 4. Copy file smali của NuiActivity sang /com/facebook/orca của Facebook Messenger
 
-5. Vào file /com/facebook/orca/OrcaLibPhoneNumberInitializer, thêm *return-void* và dưới *.line 31*. Đây là để sửa 1 lỗi do apktool không thể compile lại chính xác 100% code gốc
+5. Vào file /com/facebook/orca/OrcaLibPhoneNumberInitializer, thêm **return-void** và dưới **.line 31**. Đây là để sửa 1 lỗi do apktool không thể compile lại chính xác 100% code gốc
 
 6. Compile lại và tận hưởng
